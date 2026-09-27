@@ -55,3 +55,9 @@ conventions in `E:\CLAUDE\COMPANY\GOALS.md`.
   behavior vs. prior runs) — worked around by reading/writing each template
   file individually instead of shell-copying the directory; flagged to the
   Owner since it may affect future automated runs the same way.
+  Domain-expert review (M1b) found 8 real issues (see `docs/decisions/D003`),
+  all fixed, suite re-verified (51/51 unit, 9/9 e2e). Security review clean.
+  Pushed to https://github.com/yunniko/structured-data-checker (public).
+  **BLOCKED: session budget ran out right after push** — not deployed, hub
+  not updated. See `RESUME.md` (port 30210, deploy command ready). Not
+  Shipped yet.
